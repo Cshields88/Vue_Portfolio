@@ -1,16 +1,11 @@
 <template>
-  <b-navbar toggleable="md" type="dark" variant="dark">
+  <b-navbar toggleable="md" type="light" variant="">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-  <b-navbar-brand href="#">NavBar</b-navbar-brand>
+  <b-navbar-brand href="#" class="logo-name">Chris <br> Shields</b-navbar-brand>
 
   <b-collapse is-nav id="nav_collapse">
-
-    <b-navbar-nav>
-      <b-nav-item href="#">Link</b-nav-item>
-      <b-nav-item href="#" disabled>Disabled</b-nav-item>
-    </b-navbar-nav>
 
     <!-- Right aligned nav items -->
     <b-navbar-nav class="ml-auto">
@@ -28,3 +23,15 @@
 
 <!-- navbar-1.vue -->
 </template>
+<script>
+export default {};
+</script>
+
+<style>
+.navbar-dark .navbar-brand {
+  color: #32383e;
+}
+ul.navbar-nav {
+  color: blue !important;
+}
+</style>
