@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div class="container-fluid">
    <app-header></app-header>
    <app-portfolio></app-portfolio>
+   <app-footer></app-footer>
   </div>
 </template>
 
@@ -10,13 +11,15 @@ import Header from "./components/Header.vue";
 import About from "./components/About.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
     appHeader: Header,
     appAbout: About,
     appPortfolio: Portfolio,
-    appContact: Contact
+    appContact: Contact,
+    appFooter: Footer
   }
 };
 </script>

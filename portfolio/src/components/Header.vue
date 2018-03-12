@@ -1,4 +1,5 @@
 <template>
+
   <b-navbar toggleable="md" type="light" variant="info">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -45,6 +46,7 @@ export default {};
   color: white;
   /* background-color: #4cf7c6 !important; */
   background-color: #505050 !important;
+
   /* background-color: var(--blue-grey) !important; */
 }
 .navbar-light .navbar-brand {
