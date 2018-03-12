@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="md" type="light" variant="">
+  <b-navbar toggleable="md" type="light" variant="info">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -28,10 +28,26 @@ export default {};
 </script>
 
 <style>
-.navbar-dark .navbar-brand {
-  color: #32383e;
+.navbar-light .navbar-nav .nav-link {
+  /* color: white; */
+  /* color: #4e576d; */
+  color: var(--mint);
+  font-size: 1.25em;
+  font-family: var(--headings);
 }
-ul.navbar-nav {
-  color: blue !important;
+.navbar-light .navbar-nav .nav-link:hover {
+  /* color: white; */
+  /* color: #4e576d; */
+  color: var(--mint);
+  font-size: 1.25em;
+}
+.bg-info {
+  color: white;
+  /* background-color: #4cf7c6 !important; */
+  background-color: #505050 !important;
+  /* background-color: var(--blue-grey) !important; */
+}
+.navbar-light .navbar-brand {
+  color: var(--mint);
 }
 </style>
