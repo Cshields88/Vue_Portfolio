@@ -1,5 +1,6 @@
 <template>
   <div id="contact">
+      <hr>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="exampleInputGroup1"
                     label="Email address:"

@@ -32,24 +32,24 @@ export default {};
 .navbar-light .navbar-nav .nav-link {
   /* color: white; */
   /* color: #4e576d; */
-  color: var(--mint);
+  color: white;
   font-size: 1.25em;
   font-family: var(--headings);
 }
 .navbar-light .navbar-nav .nav-link:hover {
   /* color: white; */
   /* color: #4e576d; */
-  color: var(--mint);
+  color: white;
   font-size: 1.25em;
 }
 .bg-info {
   color: white;
   /* background-color: #4cf7c6 !important; */
-  background-color: #505050 !important;
+  background-color: var(--blue-grey) !important;
 
   /* background-color: var(--blue-grey) !important; */
 }
 .navbar-light .navbar-brand {
-  color: var(--mint);
+  color: white;
 }
 </style>
