@@ -2,7 +2,9 @@
   <div class="container-fluid">
    <app-header></app-header> <br>
    <app-portfolio></app-portfolio>
+   <app-contact></app-contact>
    <app-footer></app-footer>
+ 
   </div>
 </template>
 
