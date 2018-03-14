@@ -1,71 +1,71 @@
 <template>
-  <div class="row">
-      <div class="column">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-      </div>
-      <div class="column">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-      </div>
-      <div class="column">
-          <img src="http://via.placeholder.com/250x150" alt="">
-          <img src="http://via.placeholder.com/250x150" alt="">
-          <img src="http://via.placeholder.com/250x150" alt="">
-          <img src="http://via.placeholder.com/250x150" alt="">
-          <img src="http://via.placeholder.com/250x150" alt="">
-          <img src="http://via.placeholder.com/250x150" alt="">
-      </div>
-      <div class="column">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-          <img src="http://via.placeholder.com/350x150" alt="">
-      </div>
-  </div>
+  <div id="portfolio">
+  <b-card title="Project 1"
+          img-src="https://lorempixel.com/600/300/food/5/"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  <!-- Card 2 -->
+  <b-card title="Project 2"
+          img-src="https://lorempixel.com/600/300/food/5/"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  <!-- card 3 -->
+  <b-card title="Project 3"
+          img-src="https://lorempixel.com/600/300/food/5/"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  <!-- card 4 -->
+  <b-card title="Project 4"
+          img-src="https://lorempixel.com/600/300/food/5/"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+    <b-button href="#" variant="primary">Go somewhere</b-button>
+  </b-card>
+  
+</div>
+
+<!-- card-1.vue -->
 </template>
 <style>
-.row {
+#portfolio {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  justify-content: space-between;
+  background-color: var(--blue-grey);
+  padding: 10px;
+  margin-top: 20px;
 }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+.mb-2 {
+  margin: 20px 0 !important;
 }
 </style>

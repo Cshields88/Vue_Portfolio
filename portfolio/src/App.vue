@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-   <app-header></app-header>
+   <app-header></app-header> <br>
    <app-portfolio></app-portfolio>
    <app-footer></app-footer>
   </div>
@@ -33,8 +33,15 @@ export default {
   --headings: "Nunito", sans-serif;
   --body: "Roboto", sans-serif;
 }
-body {
-  background-color: black;
-  color: white;
+// body {
+//   background-color: black;
+//   color: white;
+// }
+.container-fluid {
+  width: 100% !important;
+  margin: 0 !important;
+}
+app-header {
+  padding: 30px;
 }
 </style>
