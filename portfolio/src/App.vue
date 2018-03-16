@@ -1,6 +1,7 @@
 <template>
   <div class="container-fluid">
-   <app-header></app-header> <br>
+   <app-header></app-header><br>
+   <app-about></app-about>
    <app-portfolio></app-portfolio>
    <app-contact></app-contact>
    <app-footer></app-footer>

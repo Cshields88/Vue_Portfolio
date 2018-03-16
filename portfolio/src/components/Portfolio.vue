@@ -1,5 +1,8 @@
 <template>
   <div id="portfolio">
+    <!-- <hr>
+    <h4>Portfolio</h4>
+    <hr> -->
   <b-card title="Project 1"
           img-src="https://lorempixel.com/600/300/food/5/"
           img-alt="Image"
