@@ -1,26 +1,29 @@
 <template>
 <div id="about">
-    <!-- <img src="http://equifyllc.com/wp-content/uploads/2016/09/headshot-placeholder-300x300.jpg" alt=""> -->
-    <h4>Bio</h4>
-    <ul>
-        <li>Location: Michigan</li>
-        <li>Hobbies: Hiking, Camping, Fishing, Cooking</li>
+   
+  <b-media>
+    <b-img slot="aside" src="http://equifyllc.com/wp-content/uploads/2016/09/headshot-placeholder-300x300.jpg"  width="300" alt="placeholder" />
+      <h5 class="mt-0"> </h5>
+      <ul class="mb-0">
+        <li><strong>Email: </strong> example@example.com</li>
+        <li><strong>Phone: </strong> (777) 777-7777</li>
         <li></li>
+        <li><strong>Location:</strong> Michigan</li>
+        <li><strong>Hobbies:</strong> Hiking, Fishing, Camping, Cooking</li>
         <li></li>
-        <li></li>
-    </ul>
-<h4>Skills</h4>
-<br>
-    <b-progress-bar class="purple" :value="100">HTML</b-progress-bar>
-    <b-progress-bar class="purple" :value="80">CSS</b-progress-bar>
-    <b-progress-bar class="purple" :value="70">Javascript</b-progress-bar>
-    <b-progress-bar class="purple" :value="50" >Vue.JS</b-progress-bar>
-  
-      <!-- <b-progress class="mt-1" :max='max' show-value>
-      <b-progress-bar :value="70" variant="success">Vue.JS</b-progress-bar>
-      <b-progress-bar :value="30" variant="warning">Knockout.JS</b-progress-bar>
-      <b-progress-bar :value="20*(1.5/10)" variant="danger">Angular.JS</b-progress-bar>
-    </b-progress> -->
+      </ul>
+    </b-media>
+<section>
+    <!-- <h4>Skills</h4> -->
+ <h5>HTML</h5>
+    <b-progress :value="90"  show-value class="mb-3"></b-progress>
+    <h5>CSS</h5>
+    <b-progress :value="85"  show-value class="mb-3"></b-progress>
+    <h5>Javascript</h5>
+    <b-progress :value="70"  show-value class="mb-3"></b-progress>
+    <h5>Vue.JS</h5>
+    <b-progress :value="60"  show-value class="mb-3"></b-progress>
+</section>
     <br>
  
    
@@ -37,14 +40,14 @@ export default {
 </script>
 
 <style>
-.progress-bar {
-  /* margin: 10px; */
-  /* border: black 1px solid;
-  border-radius: 5px;
-  background-color: purple; */
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1.15em;
 }
 img {
-  width: 20%;
+  padding: 20px 0;
 }
 .purple {
   margin: 10px;
@@ -54,12 +57,12 @@ img {
   height: 30%;
   background-color: purple;
 }
-#about {
+section1 {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
   flex-direction: row;
-  background-color: var(--blue-grey);
+  /* background-color: var(--blue-grey); */
   padding: 10px;
   margin-top: 20px;
 }
